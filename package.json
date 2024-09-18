@@ -48,6 +48,7 @@
     "next": "14.2.9",
     "next-themes": "^0.3.0",
     "phaser": "^3.85.1",
+    "prisma": "^5.19.1",
     "react": "^18",
     "react-day-picker": "8.10.1",
     "react-dom": "^18",

@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model Game {
+  id        Int      @id @default(autoincrement())
+  gameId    String   @unique
+  createdAt DateTime @default(now())
+  files     GameFile[]
+}
+
+model GameFile {
+  id        Int      @id @default(autoincrement())
+  gameId    String
+  fileName  String
+  content   String
+  createdAt DateTime @default(now())
+
+  Game      Game     @relation(fields: [gameId], references: [gameId])
+}
