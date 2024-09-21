@@ -5,14 +5,15 @@
  */
 
 require("./polyfills/requestVideoFrame");
-
+// eslint-disable-next-line no-var
 var CONST = require("./const");
+// eslint-disable-next-line no-var
 var Extend = require("./utils/object/Extend");
 
 /**
  * @namespace Ziaengine
  */
-
+// eslint-disable-next-line no-var
 var Ziaengine = {
   Actions: require("./actions"),
   Animations: require("./animations"),
