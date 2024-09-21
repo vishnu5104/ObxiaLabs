@@ -11,7 +11,11 @@ export async function middleware(req: NextRequest) {
 
   hostname = hostname.split(":")[0];
 
-  const allowedDomains = ["tudominio.ar", "www.tudominio.ar", "localhost"];
+  const allowedDomains = [
+    "ziamatix.vercel.app",
+    "www.ziamatix.vercel.app",
+    "localhost",
+  ];
 
   const isMainDomain = allowedDomains.includes(hostname);
 
