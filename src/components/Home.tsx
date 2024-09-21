@@ -8,7 +8,7 @@ export default function Home() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setMessage("");
     setError("");
@@ -33,7 +33,7 @@ export default function Home() {
       }
     } catch (error) {
       console.log("the err", error);
-      setError("An error occurred while creating the dashboard", error);
+      //   setError("An error occurred while creating the dashboard", error);
     }
   };
 
