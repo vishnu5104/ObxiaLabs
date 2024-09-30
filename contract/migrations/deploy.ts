@@ -5,7 +5,8 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const anchor = require("@coral-xyz/anchor");
 
-module.exports = async function (provider) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+module.exports = async function (provider: any) {
   // Configure client to use the provider.
   anchor.setProvider(provider);
 
