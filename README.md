@@ -8,8 +8,6 @@ Build, mint, and monetize your own blockchain games with ease!
 - [Getting Started](#getting-started)
 - [Creator NFTs](#creator-nfts)
 - [Monetization](#monetization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
