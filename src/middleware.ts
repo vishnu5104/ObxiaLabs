@@ -12,8 +12,8 @@ export async function middleware(req: NextRequest) {
   hostname = hostname.split(":")[0];
 
   const allowedDomains = [
-    "ziamatix.vercel.app",
-    "www.ziamatix.vercel.app",
+    "ObxiaLabs.vercel.app",
+    "www.ObxiaLabs.vercel.app",
     "localhost",
   ];
 

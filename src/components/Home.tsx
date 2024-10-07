@@ -1,22 +1,22 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 export default function Home() {
-  const [name, setName] = useState("");
-  const [subdomain, setSubdomain] = useState("");
-  const [message, setMessage] = useState("");
-  const [error, setError] = useState("");
+  const [name, setName] = useState('');
+  const [subdomain, setSubdomain] = useState('');
+  const [message, setMessage] = useState('');
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    setMessage("");
-    setError("");
+    setMessage('');
+    setError('');
 
     try {
-      const response = await fetch("/api/create-dashboard", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
+      const response = await fetch('/api/create-dashboard', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, subdomain }),
       });
 
@@ -25,21 +25,21 @@ export default function Home() {
         setMessage(
           `Dashboard created successfully: ${data.name} (${data.subdomain})`
         );
-        setName("");
-        setSubdomain("");
+        setName('');
+        setSubdomain('');
       } else {
         const errorData = await response.json();
-        setError(errorData.error || "Failed to create dashboard");
+        setError(errorData.error || 'Failed to create dashboard');
       }
     } catch (error) {
-      console.log("the err", error);
+      console.log('the err', error);
       //   setError("An error occurred while creating the dashboard", error);
     }
   };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-4xl font-bold mb-4">Welcome to Ziamatix</h1>
+      <h1 className="text-4xl font-bold mb-4">Welcome to ObxiaLabs</h1>
       <p className="text-xl mb-8">Create a new dashboard to get started.</p>
 
       <form onSubmit={handleSubmit} className="w-full max-w-md">
@@ -74,7 +74,7 @@ export default function Home() {
       )}
 
       {error && (
-        <div className={`mt-4 ${error ? "text-red-600" : ""}`}>
+        <div className={`mt-4 ${error ? 'text-red-600' : ''}`}>
           <h3>Error</h3>
           <p>{error}</p>
         </div>

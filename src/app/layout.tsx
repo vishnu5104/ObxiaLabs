@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Ziamatix',
+  title: 'ObxiaLabs',
   description: 'Building the next generation On-Chain Game Experience.',
 };
 
