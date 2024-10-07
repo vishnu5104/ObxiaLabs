@@ -27,11 +27,29 @@ ObxiaLabs is a revolutionary platform that empowers game developers to create, d
 - Flexible monetization options
 - Community-driven marketplace for game assets
 
-## Getting Started
+## Creator NFTs
 
-### Clone the Repository
+When you publish your game, you'll receive a unique Creator NFT that represents your ownership and creative rights. This NFT can be used to:
 
-To get started with ObxiaLabs, clone the repository using the following command:
+- Prove authorship of your game
+- Receive royalties from game sales and in-game transactions
+- Unlock exclusive features and tools within the ObxiaLabs platform
+
+## Monetization
+
+As a game creator, you have several options to monetize your work:
+
+1. Direct game sales
+2. In-game purchases
+3. Player-to-player marketplace fees
+4. Sponsored content integration
+5. Creator NFT royalties
+
+Our platform provides tools to help you implement and manage these revenue streams effectively.
+
+### To run locally 
+
+clone the repository using the following command:
 
 ```
 git clone https://github.com/vishnu5104/ObxiaLabs
@@ -55,31 +73,3 @@ Then follow these steps:
    ```
 
 4. Visit `http://localhost:3000`
-
-## Creator NFTs
-
-When you publish your game, you'll receive a unique Creator NFT that represents your ownership and creative rights. This NFT can be used to:
-
-- Prove authorship of your game
-- Receive royalties from game sales and in-game transactions
-- Unlock exclusive features and tools within the ObxiaLabs platform
-
-## Monetization
-
-As a game creator, you have several options to monetize your work:
-
-1. Direct game sales
-2. In-game purchases
-3. Player-to-player marketplace fees
-4. Sponsored content integration
-5. Creator NFT royalties
-
-Our platform provides tools to help you implement and manage these revenue streams effectively.
-
-## Contributing
-
-We welcome contributions from the community! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to submit issues, feature requests, and pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
