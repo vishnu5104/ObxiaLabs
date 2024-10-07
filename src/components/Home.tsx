@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <h1 className="text-4xl font-bold mb-4">Welcome to ObxiaLabs</h1>
-      <p className="text-xl mb-8">Create a new dashboard to get started.</p>
+      <p className="text-xl mb-8">Create your first web3 onchain game</p>
 
       <form onSubmit={handleSubmit} className="w-full max-w-md">
         <div className="mb-4">
