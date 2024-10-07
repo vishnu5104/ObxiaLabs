@@ -1,6 +1,4 @@
-## ObxiaLabs
-
-# ObxiaLabs
+# Obxia Labs
 
 Build, mint, and monetize your own blockchain games with ease!
 
