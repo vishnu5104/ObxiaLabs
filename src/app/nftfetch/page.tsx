@@ -25,6 +25,7 @@ const NFTFetch = () => {
       });
 
       console.log('Assets owned by the address:', foundAssets);
+      //@ts-expect-error : check
       setAssets(foundAssets);
     } catch (error) {
       console.error('Error fetching assets by owner:', error);
@@ -34,7 +35,7 @@ const NFTFetch = () => {
     }
   };
 
-  const customStringify = (obj) => {
+  const customStringify = (obj: never) => {
     return JSON.stringify(obj, (key, value) =>
       typeof value === 'bigint' ? value.toString() : value
     );
