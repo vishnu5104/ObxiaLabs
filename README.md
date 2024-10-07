@@ -34,7 +34,7 @@ ObxiaLabs is a revolutionary platform that empowers game developers to create, d
 To get started with ObxiaLabs, clone the repository using the following command:
 
 ```
-git clone [https://github.com/vishnu5104/ObxiaLabs.git](https://github.com/vishnu5104/ObxiaLabs)
+git clone https://github.com/vishnu5104/ObxiaLabs
 ```
 
 Then follow these steps:
