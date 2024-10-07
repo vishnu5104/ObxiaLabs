@@ -16,7 +16,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between p-4 border bg-gray-300">
       <div className="flex items-center space-x-4">
-        <h3 className="font-serif">Aychdev</h3>
+        <h3 className="font-serif">ObxiaLabs</h3>
       </div>
       <div>
         <WalletMultiButtonDynamic>
