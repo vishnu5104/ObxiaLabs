@@ -11,7 +11,7 @@ Build, mint, and monetize your own blockchain games with ease!
 
 ## Overview
 
-ObxiaLabs is a revolutionary platform that empowers game developers to create, deploy, and monetize blockchain-based games. With our intuitive tools and integrated Web3 features, you can bring your game ideas to life on the blockchain.
+ObxiaLabs is a revolutionary platform that empowers game developers to create, deploy, and monetize blockchain-based games. With our intuitive tools and integrated Web3 features, you can bring your game ideas to life on the blockchain.A platform designed to connect NFT creators and builders. Unlock new possibilities for game development, asset creation, and collaboration, all while harnessing the speed and scalability of Solana's blockchain technology.
 
 ## Features
 
